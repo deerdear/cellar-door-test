@@ -1,5 +1,14 @@
-function About() {
-  return <div>About</div>
-}
+import Link from 'next/link'
 
-export default About
+export default function About() {
+  return (
+    <>
+      <h1>About</h1>
+      <h2>
+        <Link href="/">
+          <a>Back to home</a>
+        </Link>
+      </h2>
+    </>
+  )
+}
