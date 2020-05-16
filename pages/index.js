@@ -8,6 +8,7 @@ const Home = () => (
     <h1>Next.js on the [JAMstack](https://jamstack.org)</h1>
 
     Read <Link href="/posts/about"><a>this page!</a></Link>
+  <img src="/icon.png" alt="Logo" className="logo" />
 
     <style jsx>{`
       :global(html,body) {
