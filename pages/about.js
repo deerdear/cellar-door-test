@@ -1,14 +1,12 @@
 import Link from 'next/link'
+import Head from 'next/head'
+
 
 export default function About() {
   return (
-    <>
-      <h1>About</h1>
-      <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
-    </>
+      <Head>
+        <title>Create Next App</title>
+        <link rel="icon" href="/favicon.png" />
+      </Head>
   )
 }
