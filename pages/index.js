@@ -7,7 +7,7 @@ const Home = () => (
   <div>
     <h1>Next.js on the [JAMstack](https://jamstack.org)</h1>
 
-    Read <Link href="/posts/first-post"><a>this page!</a></Link>
+    Read <Link href="/posts/about"><a>this page!</a></Link>
 
     <style jsx>{`
       :global(html,body) {
