@@ -4,11 +4,16 @@ import Link from 'next/link'
 
 
 const Home = () => (
+  <Head>
+  <title>Create Next App</title>
+  <link rel="icon" href="/favicon.png" />
+</Head>
+  
   <div>
     <h1>Next.js on the [JAMstack](https://jamstack.org)</h1>
 
     Read <Link href="/posts/about"><a>this page!</a></Link>
-  <img src="/icon.png" alt="Logo" className="logo" />
+    <img src="/icon.png" alt="Logo" className="logo" />
 
     <style jsx>{`
       :global(html,body) {
