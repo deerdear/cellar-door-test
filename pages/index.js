@@ -4,11 +4,6 @@ import Link from 'next/link'
 
 
 const Home = () => (
-  <Head>
-  <title>Create Next App</title>
-  <link rel="icon" href="/favicon.png" />
-</Head>
-  
   <div>
     <h1>Next.js on the [JAMstack](https://jamstack.org)</h1>
 
